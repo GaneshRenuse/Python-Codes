@@ -19,7 +19,7 @@ elif text2 == "tell me a quote":
     text = "sure, the quote is hardworking is a key to success"
     speak.Speak(text)
 else:
-    text = "wrong input"
+    text = "i did not understand what you said"
     speak.Speak(text)
 
 time.sleep(3)
