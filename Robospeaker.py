@@ -23,5 +23,5 @@ else:
     speak.Speak(text)
 
 time.sleep(3)
-text = "thanks for using robo speaker"
+text = "thanks for using robo speaker chatbot"
 speak.Speak(text)
