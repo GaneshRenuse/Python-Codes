@@ -1,2 +1,2 @@
 # Python-Codes-and-projects
-Logical and Topic based `Python` codes
+Logical and Topic based <p color="red">`Python`</p> codes
