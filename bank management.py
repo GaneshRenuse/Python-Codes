@@ -86,4 +86,4 @@ if __name__ == "__main__":
     submit.grid(row=10, column=1)
 
     # start the gui
-    root.mainloop()
+
