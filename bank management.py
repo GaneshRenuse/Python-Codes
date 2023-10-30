@@ -3,6 +3,11 @@ from openpyxl import *
 from tkinter import *
 import random
 
+
+def my_random(d):
+    return random.randrange(10**(d-1), 10**d)
+
+
 # driver code
 if __name__ == "__main__":
     # create a gui window
