@@ -3,9 +3,47 @@ from openpyxl import *
 from tkinter import *
 import random
 
+wb = load_workbook('C:\\Users\\ganes\\OneDrive\\Documents\\Coding\\PYTHON PROGRAMMING\\excel.xlsx')
+sheet = wb.active
+
 
 def my_random(d):
     return random.randrange(10**(d-1), 10**d)
+
+
+def excel():
+    # resize the width of columns in
+    # Excel spreadsheet
+    sheet.column_dimensions['A'].width = 30
+    sheet.column_dimensions['B'].width = 10
+    sheet.column_dimensions['C'].width = 10
+    sheet.column_dimensions['D'].width = 20
+    sheet.column_dimensions['E'].width = 20
+    sheet.column_dimensions['F'].width = 40
+    sheet.column_dimensions['G'].width = 50
+
+    # write given data to an excel spreadsheet
+    # at particular location
+    sheet.cell(row=1, column=1).value = "Name"
+    sheet.cell(row=1, column=2).value = "Account Type"
+    sheet.cell(row=1, column=3).value = "Age"
+    sheet.cell(row=1, column=4).value = "Pan card no"
+    sheet.cell(row=1, column=5).value = "Contact Number"
+    sheet.cell(row=1, column=6).value = "Email id"
+    sheet.cell(row=1, column=7).value = "Gender"
+    sheet.cell(row=1, column=7).value = "Account no"
+
+
+def clear():
+    # clear the content of text entry box
+    name_field.delete(0, END)
+    accntype_field.delete(0, END)
+    age_field.delete(0, END)
+    pan_no_field.delete(0, END)
+    contact_no_field.delete(0, END)
+    email_id_field.delete(0, END)
+    gender_field.delete(0, END)
+    atmpin_field.delete(0, END)
 
 
 # driver code
