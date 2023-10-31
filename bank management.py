@@ -13,43 +13,20 @@ if __name__ == "__main__":
     # create a gui window
     root = Tk()
 
-    # set the bg color
     root.configure(background='light blue')
-
-    # set the title of gui window
     root.title("GR Bank")
-
-    # set the size of window
     root.geometry("600x300")
 
-    # create a form label
     heading = Label(root, text="Account registration", bg="light blue")
-
-    # create a Name label
     name = Label(root, text="Name", bg="light blue")
-
-    # create a Course label
     accntype = Label(root, text="Account type", bg="light blue")
-
-    # create a Semester label
     age = Label(root, text="Age", bg="light blue")
-
-    # create a Form No. label
     pancno = Label(root, text="Pancard no", bg="light blue")
-
-    # create a Contact No. label
     contact_no = Label(root, text="Contact No.", bg="light blue")
-
-    # create a Email id label
     email_id = Label(root, text="Email id", bg="light blue")
-
-    # create a address label
     gender = Label(root, text="Gender", bg="light blue")
-
     atmpin = Label(root, text="Set ATM pin", bg="light blue")
-
     accngen = Label(root, text="Account no generated : ", bg="light blue")
-
     gen_no = Label(root, text="983475837", bg="light blue")
 
     # grid method is used for placing
