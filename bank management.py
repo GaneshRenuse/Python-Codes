@@ -17,6 +17,8 @@ if __name__ == "__main__":
     root.title("GR Bank")
     root.geometry("600x300")
 
+    n = my_random(7)
+
     heading = Label(root, text="Account registration", bg="light blue")
     name = Label(root, text="Name", bg="light blue")
     accntype = Label(root, text="Account type", bg="light blue")
@@ -27,7 +29,7 @@ if __name__ == "__main__":
     gender = Label(root, text="Gender", bg="light blue")
     atmpin = Label(root, text="Set ATM pin", bg="light blue")
     accngen = Label(root, text="Account no generated : ", bg="light blue")
-    gen_no = Label(root, text="983475837", bg="light blue")
+    gen_no = Label(root, text=n, bg="light blue")
 
     # grid method is used for placing
     # the widgets at respective positions
