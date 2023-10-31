@@ -3,7 +3,7 @@ from openpyxl import *
 from tkinter import *
 import random
 
-wb = load_workbook('C:\\Users\\ganes\\OneDrive\\Documents\\Coding\\PYTHON PROGRAMMING\\excel.xlsx')
+wb = load_workbook('excel.xlsx')
 sheet = wb.active
 
 
