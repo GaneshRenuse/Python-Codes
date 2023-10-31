@@ -48,20 +48,20 @@ if __name__ == "__main__":
     # for typing the information
     name_field = Entry(root)
     accntype_field = Entry(root)
-    sem_field = Entry(root)
-    form_no_field = Entry(root)
+    age_field = Entry(root)
+    pan_no_field = Entry(root)
     contact_no_field = Entry(root)
     email_id_field = Entry(root)
-    address_field = Entry(root)
+    gender_field = Entry(root)
     atmpin_field = Entry(root)
 
     name_field.grid(row=1, column=1, ipadx="100")
     accntype_field.grid(row=2, column=1, ipadx="100")
-    sem_field.grid(row=3, column=1, ipadx="100")
-    form_no_field.grid(row=4, column=1, ipadx="100")
+    age_field.grid(row=3, column=1, ipadx="100")
+    pan_no_field.grid(row=4, column=1, ipadx="100")
     contact_no_field.grid(row=5, column=1, ipadx="100")
     email_id_field.grid(row=6, column=1, ipadx="100")
-    address_field.grid(row=7, column=1, ipadx="100")
+    gender_field.grid(row=7, column=1, ipadx="100")
     atmpin_field.grid(row=8, column=1, ipadx="100")
 
     # create a Submit Button and place into the root window
