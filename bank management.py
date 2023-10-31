@@ -46,6 +46,10 @@ def clear():
     atmpin_field.delete(0, END)
 
 
+def insert():
+    pass
+
+
 # driver code
 if __name__ == "__main__":
     # create a gui window
