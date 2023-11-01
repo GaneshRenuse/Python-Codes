@@ -1,6 +1,7 @@
 # import openpyxl and tkinter modules
 from openpyxl import *
 from tkinter import *
+from PIL import ImageTk, Image
 import random
 
 wb = load_workbook('excel.xlsx')
