@@ -14,10 +14,10 @@ if __name__ == "__main__":
 
     # Create an object of tkinter ImageTk
     img = (Image.open("bank logo.png"))
-    resizeimg = img.resize((150, 150), Image.LANCZOS)
+    resize_img = img.resize((150, 150), Image.LANCZOS)
 
-    newimg = ImageTk.PhotoImage(resizeimg)
-    label = Label(frame, image=newimg)
+    new_img = ImageTk.PhotoImage(resize_img)
+    label = Label(frame, image=new_img)
     label2 = Label(frame, text="GR\n Bank", background="light blue", font=('Helvatical bold', 40))
 
     label.grid(row=0, column=1)
