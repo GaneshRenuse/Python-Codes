@@ -73,9 +73,6 @@ if __name__ == "__main__":
     accngen = Label(root, text="Account no generated : ", bg="light blue")
     gen_no = Label(root, text=n, bg="light blue")
 
-    # grid method is used for placing
-    # the widgets at respective positions
-    # in table like structure .
     heading.grid(row=0, column=1)
     name.grid(row=1, column=0)
     accntype.grid(row=2, column=0)
